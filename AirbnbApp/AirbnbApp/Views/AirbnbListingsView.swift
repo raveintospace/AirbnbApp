@@ -9,8 +9,17 @@ import SwiftUI
 
 struct AirbnbListingsView: View {
     
+    @StateObject var viewModel = AirbnbListingsViewModel()
+    
     var body: some View {
-        Text("Hi!")
+        NavigationStack {
+            List(viewModel.listings) { listing in
+                Text(listing.name ?? "-")
+            }
+        }
+        .onAppear {
+            viewModel.fetchListings()
+        }
     }
 }
 

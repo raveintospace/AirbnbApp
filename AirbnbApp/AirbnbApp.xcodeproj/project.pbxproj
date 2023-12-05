@@ -17,6 +17,7 @@
 		34EB853B2B1F7EDE005DB26F /* AirbnbDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EB853A2B1F7EDE005DB26F /* AirbnbDetailView.swift */; };
 		34EB853D2B1F7F09005DB26F /* AirbnbListingsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EB853C2B1F7F09005DB26F /* AirbnbListingsResponse.swift */; };
 		34EB853F2B1F7F1C005DB26F /* AirbnbListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EB853E2B1F7F1C005DB26F /* AirbnbListing.swift */; };
+		34EB85412B1F9818005DB26F /* AirbnbListingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EB85402B1F9818005DB26F /* AirbnbListingsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		34EB853A2B1F7EDE005DB26F /* AirbnbDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbDetailView.swift; sourceTree = "<group>"; };
 		34EB853C2B1F7F09005DB26F /* AirbnbListingsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbListingsResponse.swift; sourceTree = "<group>"; };
 		34EB853E2B1F7F1C005DB26F /* AirbnbListing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbListing.swift; sourceTree = "<group>"; };
+		34EB85402B1F9818005DB26F /* AirbnbListingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbListingsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		34EB85312B1F7CD5005DB26F /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				34EB85402B1F9818005DB26F /* AirbnbListingsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34EB853D2B1F7F09005DB26F /* AirbnbListingsResponse.swift in Sources */,
+				34EB85412B1F9818005DB26F /* AirbnbListingsViewModel.swift in Sources */,
 				34EB85232B1F7AF3005DB26F /* HomeView.swift in Sources */,
 				34EB853B2B1F7EDE005DB26F /* AirbnbDetailView.swift in Sources */,
 				34EB85372B1F7E34005DB26F /* AirbnbListingsView.swift in Sources */,

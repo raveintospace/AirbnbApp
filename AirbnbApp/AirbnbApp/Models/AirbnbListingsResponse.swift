@@ -9,7 +9,6 @@ import Foundation
 
 struct AirbnbListingsResponse: Codable {
     
-    let total_count: Int
     let results: [AirbnbListing]
 }
 

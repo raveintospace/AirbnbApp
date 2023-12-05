@@ -80,27 +80,27 @@ import Foundation
 
 */
 
-struct AirbnbListing: Codable {
+struct AirbnbListing: Codable, Identifiable {
     
     let id: String
-    let listingURL: String
-    let name: String
-    let summary: String
-    let space: String
-    let description: String
-    let houseRules: String
-    let thumbnailURL: String
-    let mediumURL: String
-    let xlPictureURL: String
-    let neighbourhood: String
-    let amenities: [String]
-    let price: Int
+    let listingURL: String?
+    let name: String?
+    let summary: String?
+    let space: String?
+    let description: String?
+    let houseRules: String?
+    let thumbnailURL: String?
+    let mediumURL: String?
+    let xlPictureURL: String?
+    let neighbourhood: String?
+    let amenities: [String]?
+    let price: Int?
     
     // Host details
-    let hostName: String
-    let hostSince: String
-    let hostThumbnailURL: String
-    let hostPictureURL: String
+    let hostName: String?
+    let hostSince: String?
+    let hostThumbnailURL: String?
+    let hostPictureURL: String?
     
     enum CodingKeys: String, CodingKey {
         case id, name, summary, space, description, neighbourhood, amenities, price
