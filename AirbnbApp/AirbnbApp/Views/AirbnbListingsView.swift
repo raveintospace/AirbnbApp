@@ -1,20 +1,19 @@
 //
-//  ContentView.swift
+//  AirbnbListingsView.swift
 //  AirbnbApp
 //
 //  Created by Uri on 5/12/23.
 //
 
 import SwiftUI
-import SwiftData
 
-struct ContentView: View {
-
+struct AirbnbListingsView: View {
+    
     var body: some View {
-        Text("Hi")
+        Text("Hi!")
     }
 }
 
 #Preview {
-    ContentView()
+    AirbnbListingsView()
 }

@@ -13,7 +13,7 @@ struct AirbnbAppApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
