@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AirbnbListingCardView: View {
+struct ListingCardView: View {
     let model: AirbnbListing
     
     var body: some View {
